@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Courier New, monospace;
+}
+
+header {
+    background-color: #ead7cb;
+    padding: 20px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #aaa;
+}
+.container {
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+.tableServices {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeImg{
+    width: 100%;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-form img {
+    width: 50%;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+}
+.containerContacts{
+    display: flex;
+}
+
+.block {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contacts img {
+    width: 30%;
+    float: left;
+}
+
+.text {
+    width: 70%;
+    float: right;
+}
+.buttonRecord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+button{
+    padding: 15px 30px;
+    background-color: #ead7cb;
+    color: #070706;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 25px;
+}
+button:hover{
+    background-color: #e5c9b9;
+}
+p{
+    padding: 80px 330px;
+    text-align:center;
+    font-size: 40px;
+}
+.ImgServices{
+    width: 360px;
+    height: 270px;
+}
+.tableServices{
+    background-color: white;
+    margin: 20px;
+}
+.Img{
+    width: 360px;
+    height: 400px;
+}
+.Contacts{
+    margin-left: 450px;
+}
+.buttonContacts{
+    width: 80px;
+    height: 80px;
+}
+.auten{
+    margin-left: 30%;
+    margin-top: 30%;
+}
+.registr{
+    padding-top: 30%;
+    padding-left: 30%;
+}
